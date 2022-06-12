@@ -15,9 +15,7 @@ using std::cout, std::endl;
 template <typename Comparable>
 class BinarySearchTree 
 {
-    // TODO(student): implement BinarySearchTree
 private:
-
     struct BinaryNode
     {
         Comparable data;
@@ -334,11 +332,6 @@ public:
             root = nullptr;
         }
     }
-
-    // optional
-    // BinarySearchTree(BinarySearchTree&& other);
-    // BinarySearchTree& operator=(BinarySearchTree&& other);
-    // void insert(Comparable&& value);
 };
 
 #endif
