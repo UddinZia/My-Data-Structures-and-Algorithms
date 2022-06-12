@@ -15,7 +15,6 @@ using std::cout, std::endl;
 
 template <typename Comparable>
 class AVLTree {
-    // TODO(student): implement AVLTree
 private:
     struct avlNode
     {
