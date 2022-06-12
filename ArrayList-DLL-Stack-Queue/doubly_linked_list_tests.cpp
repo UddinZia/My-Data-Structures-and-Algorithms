@@ -7,7 +7,6 @@ using std::cout, std::endl;
 
 int main() 
 {
-    // TODO(student): test your code
     DoublyLinkedList<char> t1;
     DoublyLinkedList<char> t2;
     DoublyLinkedList<char> t3;
