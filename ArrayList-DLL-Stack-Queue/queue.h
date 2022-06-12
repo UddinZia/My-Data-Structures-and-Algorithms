@@ -8,7 +8,6 @@
 template <typename Object>
 class Queue {
 private:
-    // TODO(student): implement Queue
     ArrayList<Object> queue; 
 public:
     Queue() {}
