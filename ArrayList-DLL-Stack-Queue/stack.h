@@ -9,7 +9,6 @@ template <typename Object>
 class Stack 
 {
 private:
-	// TODO(student): implement Stack
 	DoublyLinkedList<Object> DLL; 
 public:
 	Stack() {}
