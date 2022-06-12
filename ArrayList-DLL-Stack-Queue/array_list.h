@@ -10,7 +10,6 @@ using std:: cout, std::cin, std::endl;
 template <typename Object>
 class ArrayList {
 private:
-    // TODO(student): implement ArrayList
     Object* thing;
     size_t _size;
     size_t Capacity;
