@@ -11,7 +11,6 @@ template <typename Object>
 class DoublyLinkedList 
 {
 private:
-    // TODO(student): implement DoublyLinkedList
     struct node
     {   
         Object data;
