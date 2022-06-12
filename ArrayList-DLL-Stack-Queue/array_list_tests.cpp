@@ -5,8 +5,6 @@
 using std:: cout, std::cin, std::endl;
 
 int main() {
-    // TODO(student): test your code
-    
     ArrayList<int> Arr1;
    // cout << Arr1.size() << " " << Arr1.capacity() << endl;
     Arr1.insert(0, 69);
