@@ -4,7 +4,6 @@
 using std::cout, std::endl;
 
 int main() {
-    // TODO(student): test your code
     Stack<int> s1;
     s1.push(1);
     s1.push(2);
