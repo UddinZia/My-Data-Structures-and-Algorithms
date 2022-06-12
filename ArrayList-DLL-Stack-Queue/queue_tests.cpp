@@ -2,7 +2,6 @@
 #include "queue.h"
 
 int main() {
-    // TODO(student): test your code
     Queue<int> q1;
     q1.enqueue(1);
     q1.enqueue(2);
