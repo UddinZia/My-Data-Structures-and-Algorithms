@@ -7,9 +7,6 @@
 ** File: heap.h
 ** Author: Zia Uddin
 ** Date: 4/22/2022
-** Section: 511
-** Email: zia19@tamu.edu
-**
 ** This file contains the function defintions for percolate down and heapify. heapify depends 
 ** on percolate down function for building the heap.
 **
@@ -20,8 +17,7 @@
 template <class Container, class Compare=std::less<typename Container::value_type>>
 void percolate_down(Container* container, size_t index, Compare less=std::less<typename Container::value_type>{}) 
 {
-    // TODO(student): implement percolate_down
-    
+
     if (index <= 0 || index > container->size()-1) //
         throw std::invalid_argument("invalid index");
     
@@ -63,10 +59,6 @@ void heapify(Container* container, Compare less=std::less<typename Container::va
     percolate_down(container, i);
   
 }
-
-
-// GIVEN: The functions below are given to you in the starter code
-// you should NOT need to modify these
 
 template <class Container, class Compare=std::less<typename Container::value_type>>
 void heap_insert(Container* container, const typename Container::value_type& value, Compare less=std::less<typename Container::value_type>{}) {
