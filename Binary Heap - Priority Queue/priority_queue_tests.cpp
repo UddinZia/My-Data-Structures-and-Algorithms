@@ -128,8 +128,6 @@ int main() {
     cout << "server was busy for " << busy_time << " total time units" << endl;
     cout << "customers waited " << wait_time << " total time units" << endl;
 
-    // TODO(student): write tests
-    
     return 0;
     
 }
