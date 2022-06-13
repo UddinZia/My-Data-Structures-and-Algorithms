@@ -10,9 +10,6 @@
 ** File: priority_queue.h
 ** Author: Zia Uddin
 ** Date: 4/22/2022
-** Section: 511
-** Email: zia19@tamu.edu
-**
 ** This file relies on heap.h to build a priority queue. 
 **
 ******************************/
@@ -28,8 +25,6 @@ private:
     using size_type = typename Container::size_type;
     using reference = typename Container::reference;
     using const_reference = typename Container::const_reference;
-    // Member Types - do not modify
-    // you can modify below here
 
     Compare compare;
     Container container;
