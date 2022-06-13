@@ -53,7 +53,6 @@ int main() {
         cout << endl;
     }
 
-    // TODO(student): write tests
      std::vector<int> heap1 {150,80,40,20,90,60,50,120,140,130};
     
     //heapify(&heap1);
