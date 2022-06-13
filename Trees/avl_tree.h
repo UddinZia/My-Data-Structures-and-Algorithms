@@ -444,11 +444,6 @@ public:
             root = nullptr;
         }
     }
-
-    // optional
-    // AVLTree(AVLTree&& other);
-    // AVLTree& operator=(AVLTree&& other);
-    // void insert(Comparable&& value);
 };
 
 #endif
