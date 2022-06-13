@@ -24,8 +24,6 @@ int main() {
     test1 = test2;
     test2.print_table();
     
-    // Example test case in lab document
-    
     std::cout << "make an empty hash table with 11 buckets for strings" << std::endl;
     HashTable<std::string> table(11);
 
