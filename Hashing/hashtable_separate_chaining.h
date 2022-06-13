@@ -2,9 +2,6 @@
 ** File: hashtable_seperate_chaining.h
 ** Author: Zia Uddin
 ** Date: 4/11/2022
-** Section: 511
-** Email: zia19@tamu.edu
-**
 ** This file contains the class definition for a seperate-addressing hashtable.
 ** the seperate-addressing hashtable is implemented using std::vector and std::list 
 ** as well as the standard library hash function. collisions are handled by linked list using push_back()
@@ -25,16 +22,12 @@ using std::list, std::vector, std::cout, std::cin, std::endl;
 template <class Key, class Hash=std::hash<Key>>
 class HashTable {
 public:
-    // Member Types - do not modify
     using key_type = Key;
     using value_type = Key;
     using hash = Hash;
     using size_type = size_t;
-    // you can write your code below this
 
 private:
-    // TODO: student implementation
-    
     size_type _size; // number of existing values in table
     size_type _buckets; // number of linked list in vector
     float MaxLF;
@@ -234,12 +227,6 @@ public:
         os << "  " << "|-------------------------------------------------------" << endl;
         os << endl;
     }
-
-  
-    // Optional
-    // HashTable(HashTable&& other);
-    // HashTable& operator=(HashTable&& other);
-    // bool insert(value_type&& value);
 };
 
 #endif  // HASHTABLE_SEPARATE_CHAINING_H
