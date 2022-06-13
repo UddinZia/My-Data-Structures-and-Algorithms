@@ -1,14 +1,11 @@
 
 /***************************
 ** File: graph.h
-** Author: Evan Cyr, Zia Uddin
+** Author: Zia Uddin
 ** Date: 5/08/2022
-** Section: 511
-** Email: zia19@tamu.edu, ecry20@tamu.edu
-**
 ** This file contains the class definition for a graph using an adjaceny matrix implementation. 
 ** contains defintions for Prim's and Dijkstra's algorithms. Dijkstra's algorithm was approached  
-** recursively while Prim's algorithm was approaced using a nested for loop.
+** recursively while Prim's algorithm was approaced using a nested for-loop.
 *
 ***************************/
 
@@ -28,8 +25,6 @@ using std::endl; using std::cout; using std::vector;
 
 class Graph {
 private:
-    // TODO(student): implement graph
-
     //Variables for Dijkstra's algorithm
     //Struct for holding the data for dTable
     struct dNode
