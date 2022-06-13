@@ -1,0 +1,1 @@
+Contains implementation of an ArrayList, Doubly Linked List (DLL), Stack, and Queue. The Stack is implemented with a DLL while the Queue is implemented with an ArrayList. Use makefile to compile and execute the appropriate data structure you would like to run.
