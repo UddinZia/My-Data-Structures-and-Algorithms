@@ -2,9 +2,6 @@
 ** File: hashtable_open_addressing.h
 ** Author: Zia Uddin
 ** Date: 4/11/2022
-** Section: 511
-** Email: zia19@tamu.edu
-**
 ** This file contains the class definition for an open-addressing hashtable.
 ** the open-addressing hashtable is implemented using a vector and standard 
 ** library hash function. the collision funciton is quadratic. 
@@ -23,16 +20,12 @@ using std::vector, std::cout, std::endl;
 template <class Key, class Hash=std::hash<Key>>
 class HashTable {
 public:
-    // Member Types - do not modify
     using key_type = Key;
     using value_type = Key;
     using hash = Hash;
     using size_type = size_t;
-    // you can write your code below this
-
+    
 private:
-    // TODO: student implementation
-
     // hash function returns hashed index
     size_t hashFunction(const Key& value) const
     {
@@ -250,11 +243,6 @@ public:
     {
         return static_cast<float>(_size) / static_cast<float>(table_size());
     }
-
-    // Optional
-    // HashTable(HashTable&& other);
-    // HashTable& operator=(HashTable&& other);
-    // bool insert(value_type&& value);
 };
 
 #endif  // HASHTABLE_OPEN_ADDRESSING_H
