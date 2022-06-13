@@ -4,7 +4,6 @@
 using std::cout, std::endl;
 
 int main() {
-    // TODO(student): write tests
     /*
     int A[] = {63, 41, 76, 93, 66, 5, 10, 57, 8, 79, 29, 14, 73, 56, 54, 87, 60, 22, 23, 90};
 
